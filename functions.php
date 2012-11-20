@@ -161,5 +161,17 @@ function bones_wpsearch($form) {
     return $form;
 } // don't remove this bracket!
 
+//This is to add a flexible header image /Sten
+$args = array(
+	'flex-width'    => true,
+	'width'         => 150,
+	'flex-height'    => true,
+	'height'        => 75,
+	'default-image' => get_template_directory_uri() . '/images/header.jpg',
+);
+add_theme_support( 'custom-header', $args );
+
+//To remove the wordpress menu
+
 
 ?>

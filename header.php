@@ -39,9 +39,13 @@
 			<header class="header" role="banner">
 			
 				<div id="inner-header" class="wrap clearfix">
+                
 					
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<!-- This code was added to add a cutom header image to the site 
+                     /Stil have not figured out if it ruin the google ranking not to havce q image instead of text
+                     //Sten 
+                     -->
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="The Lav" /></a>
 					
 					<!-- if you'd like to use the site description you can un-comment it below -->
 					<?php // bloginfo('description'); ?>
