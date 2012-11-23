@@ -50,7 +50,10 @@
 					</h1>
 					<!-- if you'd like to use the site description you can un-comment it below -->
 					<?php // bloginfo('description'); ?>
-					
+				
+                <div id"Google-custom-search" >
+                
+                </div>
 					
 					<nav role="navigation">
 						<?php bones_main_nav(); ?>
